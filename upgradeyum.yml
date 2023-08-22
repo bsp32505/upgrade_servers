@@ -2,6 +2,6 @@
   tasks:
 
   - name: Upgrade all packages
-    yum:
+    ansible.builtin.yum:
       name: '*'
       state: latest
